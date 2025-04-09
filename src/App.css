@@ -1,0 +1,62 @@
+*{
+  background-color: rgb(178, 180, 146);
+  background-image: url("https://www.google.com/imgres?q=chat%20app%20front%20image&imgurl=https%3A%2F%2Fres.cloudinary.com%2Fupwork-cloud%2Fimage%2Fupload%2Fc_scale%2Cw_1000%2Fv1686321110%2Fcatalog%2F1666511084745994240%2Fi8jcwdg8hxqzewf4ymeo.jpg&imgrefurl=https%3A%2F%2Fwww.upwork.com%2Fservices%2Fproduct%2Fdevelopment-it-a-basic-chat-app-which-can-be-improved-for-advanced-functionality-1666511084745994240&docid=RipN3EePnlHTKM&tbnid=RSdXf8wzX1-ANM&vet=12ahUKEwjRrOeZxcqMAxUtcvUHHayTGjwQM3oECFwQAA..i&w=1000&h=750&hcb=2&ved=2ahUKEwjRrOeZxcqMAxUtcvUHHayTGjwQM3oECFwQAA");
+  
+ 
+}
+
+.front{
+  display: flex;
+  width: 100% ;
+  height: 100% ;
+  margin-top: 30%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sign_in{
+
+  background-color: rgb(241, 248, 248);
+}
+
+
+
+
+.chatbox{
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 5ps 0;
+  padding: 10px;
+  background-color: bisque;
+}
+.container{
+  display: flex;
+}
+.containerme{
+  display: flex;
+  flex-direction: row-reverse;
+ 
+}
+.containerme p{
+  background-color: rgb(82, 173, 143);
+}
+.btm input{
+  padding: 10px 0;
+  flex-grow: 1;
+}
+.btm button{
+  padding: 10px;
+}
+.btm{
+  position:fixed;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  direction: row;
+}
+.chat-container{
+  height: 80vh;
+  overflow-y: scroll;
+  border: 1px solid black;
+}
